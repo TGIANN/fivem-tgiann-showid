@@ -3,4 +3,4 @@
 ![IMG](https://i.imgur.com/UgyW5S8.png "IMG")
 
 **Features**
-* Easy configuration and more :slight_smile: 
+* Easy configuration and more :)
