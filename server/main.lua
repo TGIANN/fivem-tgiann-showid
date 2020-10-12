@@ -2,6 +2,7 @@ onlinePlayers = {}
 
 RegisterServerEvent('tgiann-showid:add-id')
 AddEventHandler('tgiann-showid:add-id', function()
+    TriggerClientEvent("tgiann-showid:client:add-id", source, onlinePlayers)
     local topText = "undefined " .. TGIANN.which
     local identifiers = GetPlayerIdentifiers(source)
     if TGIANN.which == "steam" then 
